@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- TITLE -->
+    <title>Pokémon</title>
+
+    <!-- LINK -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- HEADER (partie haute) -->
+    <header class="container-fluid text-center">
+      <h1>La PictureBox de Sacha</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus consequatur ratione quasi molestias dolorem quod reiciendis possimus vero fuga non, officiis enim dolorum nobis fugiat laboriosam soluta aut animi, eum quis nostrum iure? Esse sit suscipit accusantium deserunt? Corrupti, eveniet!</p>
+      <div class="d-flex justify-content-center flex-column flex-sm-row">
+        <a href="" class="btn my-1 mx-1">Pokémon de feu</a>
+        <a href="" class="btn my-1 mx-1">Pokémon d'eau</a>
+        <a href="" class="btn my-1 mx-1">Pokémon de terre</a>
+        <a href="" class="btn my-1 mx-1">Evolution</a>
+      </div>
+    </header>
+
+    <hr class="mb-0">
+
+    <main class="container-fluid">
+      <div class="row">
+
+        <!-- Partie gauche -->
+        <div class="col-xl-4 ps-0">
+          <ul class="nav nav-tabs d-flex justify-content-center overflow-y-scroll" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active m-2 p-0" id="pokemon01-tab" data-bs-toggle="tab" data-bs-target="#pokemon01-tab-pane" type="button" role="tab" aria-controls="pokemon01-tab-pane" aria-selected="true"><img src="img/Pokemon01.png" alt="pokemon01" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon02-tab" data-bs-toggle="tab" data-bs-target="#pokemon02-tab-pane" type="button" role="tab" aria-controls="pokemon02-tab-pane" aria-selected="false"><img src="img/Pokemon02.png" alt="pokemon02" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon03-tab" data-bs-toggle="tab" data-bs-target="#pokemon03-tab-pane" type="button" role="tab" aria-controls="pokemon03-tab-pane" aria-selected="false"><img src="img/Pokemon03.png" alt="pokemon03" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon04-tab" data-bs-toggle="tab" data-bs-target="#pokemon04-tab-pane" type="button" role="tab" aria-controls="pokemon04-tab-pane" aria-selected="false"><img src="img/Pokemon04.png" alt="pokemon04" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon05-tab" data-bs-toggle="tab" data-bs-target="#pokemon05-tab-pane" type="button" role="tab" aria-controls="pokemon05-tab-pane" aria-selected="true"><img src="img/Pokemon05.png" alt="pokemon05" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon06-tab" data-bs-toggle="tab" data-bs-target="#pokemon06-tab-pane" type="button" role="tab" aria-controls="pokemon06-tab-pane" aria-selected="false"><img src="img/Pokemon06.png" alt="pokemon06" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon07-tab" data-bs-toggle="tab" data-bs-target="#pokemon07-tab-pane" type="button" role="tab" aria-controls="pokemon07-tab-pane" aria-selected="false"><img src="img/Pokemon07.png" alt="pokemon07" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon08-tab" data-bs-toggle="tab" data-bs-target="#pokemon08-tab-pane" type="button" role="tab" aria-controls="pokemon08-tab-pane" aria-selected="false"><img src="img/Pokemon08.png" alt="pokemon08" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon09-tab" data-bs-toggle="tab" data-bs-target="#pokemon09-tab-pane" type="button" role="tab" aria-controls="pokemon09-tab-pane" aria-selected="true"><img src="img/Pokemon09.png" alt="pokemon09" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon10-tab" data-bs-toggle="tab" data-bs-target="#pokemon10-tab-pane" type="button" role="tab" aria-controls="pokemon10-tab-pane" aria-selected="false"><img src="img/Pokemon10.png" alt="pokemon10" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon11-tab" data-bs-toggle="tab" data-bs-target="#pokemon11-tab-pane" type="button" role="tab" aria-controls="pokemon11-tab-pane" aria-selected="false"><img src="img/Pokemon11.png" alt="pokemon11" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon12-tab" data-bs-toggle="tab" data-bs-target="#pokemon12-tab-pane" type="button" role="tab" aria-controls="pokemon12-tab-pane" aria-selected="false"><img src="img/Pokemon12.png" alt="pokemon12" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon13-tab" data-bs-toggle="tab" data-bs-target="#pokemon13-tab-pane" type="button" role="tab" aria-controls="pokemon13-tab-pane" aria-selected="true"><img src="img/Pokemon13.png" alt="pokemon13" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon14-tab" data-bs-toggle="tab" data-bs-target="#pokemon14-tab-pane" type="button" role="tab" aria-controls="pokemon14-tab-pane" aria-selected="false"><img src="img/Pokemon14.png" alt="pokemon14" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon15-tab" data-bs-toggle="tab" data-bs-target="#pokemon15-tab-pane" type="button" role="tab" aria-controls="pokemon15-tab-pane" aria-selected="false"><img src="img/Pokemon15.png" alt="pokemon15" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon16-tab" data-bs-toggle="tab" data-bs-target="#pokemon16-tab-pane" type="button" role="tab" aria-controls="pokemon16-tab-pane" aria-selected="false"><img src="img/Pokemon16.png" alt="pokemon16" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon17-tab" data-bs-toggle="tab" data-bs-target="#pokemon17-tab-pane" type="button" role="tab" aria-controls="pokemon17-tab-pane" aria-selected="true"><img src="img/Pokemon17.png" alt="pokemon17" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon18-tab" data-bs-toggle="tab" data-bs-target="#pokemon18-tab-pane" type="button" role="tab" aria-controls="pokemon18-tab-pane" aria-selected="false"><img src="img/Pokemon18.png" alt="pokemon18" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon19-tab" data-bs-toggle="tab" data-bs-target="#pokemon19-tab-pane" type="button" role="tab" aria-controls="pokemon19-tab-pane" aria-selected="false"><img src="img/Pokemon19.png" alt="pokemon19" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon20-tab" data-bs-toggle="tab" data-bs-target="#pokemon20-tab-pane" type="button" role="tab" aria-controls="pokemon20-tab-pane" aria-selected="false"><img src="img/Pokemon20.png" alt="pokemon20" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon21-tab" data-bs-toggle="tab" data-bs-target="#pokemon21-tab-pane" type="button" role="tab" aria-controls="pokemon21-tab-pane" aria-selected="true"><img src="img/Pokemon21.png" alt="pokemon21" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon22-tab" data-bs-toggle="tab" data-bs-target="#pokemon22-tab-pane" type="button" role="tab" aria-controls="pokemon22-tab-pane" aria-selected="false"><img src="img/Pokemon22.png" alt="pokemon22" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon23-tab" data-bs-toggle="tab" data-bs-target="#pokemon23-tab-pane" type="button" role="tab" aria-controls="pokemon23-tab-pane" aria-selected="false"><img src="img/Pokemon23.png" alt="pokemon23" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon24-tab" data-bs-toggle="tab" data-bs-target="#pokemon24-tab-pane" type="button" role="tab" aria-controls="pokemon24-tab-pane" aria-selected="false"><img src="img/Pokemon24.png" alt="pokemon24" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon25-tab" data-bs-toggle="tab" data-bs-target="#pokemon25-tab-pane" type="button" role="tab" aria-controls="pokemon25-tab-pane" aria-selected="true"><img src="img/Pokemon25.png" alt="pokemon25" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon26-tab" data-bs-toggle="tab" data-bs-target="#pokemon26-tab-pane" type="button" role="tab" aria-controls="pokemon26-tab-pane" aria-selected="false"><img src="img/Pokemon26.png" alt="pokemon26" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon27-tab" data-bs-toggle="tab" data-bs-target="#pokemon27-tab-pane" type="button" role="tab" aria-controls="pokemon27-tab-pane" aria-selected="false"><img src="img/Pokemon27.png" alt="pokemon27" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon28-tab" data-bs-toggle="tab" data-bs-target="#pokemon28-tab-pane" type="button" role="tab" aria-controls="pokemon28-tab-pane" aria-selected="false"><img src="img/Pokemon28.png" alt="pokemon28" class="rounded"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link m-2 p-0" id="pokemon29-tab" data-bs-toggle="tab" data-bs-target="#pokemon29-tab-pane" type="button" role="tab" aria-controls="pokemon29-tab-pane" aria-selected="false"><img src="img/Pokemon29.png" alt="pokemon29" class="rounded"></button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Partie droite -->
+        <div class="col-xl-8 tab-content text-center" id="myTabContent">
+          <h2>Titre</h2>
+          <div class="tab-pane fade show active" id="pokemon01-tab-pane" role="tabpanel" aria-labelledby="pokemon01-tab" tabindex="0"><img src="img/Pokemon01.png" alt="pokemon01" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon02-tab-pane" role="tabpanel" aria-labelledby="pokemon02-tab" tabindex="0"><img src="img/Pokemon02.png" alt="pokemon02" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon03-tab-pane" role="tabpanel" aria-labelledby="pokemon03-tab" tabindex="0"><img src="img/Pokemon03.png" alt="pokemon03" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon04-tab-pane" role="tabpanel" aria-labelledby="pokemon04-tab" tabindex="0"><img src="img/Pokemon04.png" alt="pokemon04" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon05-tab-pane" role="tabpanel" aria-labelledby="pokemon05-tab" tabindex="0"><img src="img/Pokemon05.png" alt="pokemon05" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon06-tab-pane" role="tabpanel" aria-labelledby="pokemon06-tab" tabindex="0"><img src="img/Pokemon06.png" alt="pokemon06" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon07-tab-pane" role="tabpanel" aria-labelledby="pokemon07-tab" tabindex="0"><img src="img/Pokemon07.png" alt="pokemon07" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon08-tab-pane" role="tabpanel" aria-labelledby="pokemon08-tab" tabindex="0"><img src="img/Pokemon08.png" alt="pokemon08" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon09-tab-pane" role="tabpanel" aria-labelledby="pokemon09-tab" tabindex="0"><img src="img/Pokemon09.png" alt="pokemon09" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon10-tab-pane" role="tabpanel" aria-labelledby="pokemon10-tab" tabindex="0"><img src="img/Pokemon10.png" alt="pokemon10" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon11-tab-pane" role="tabpanel" aria-labelledby="pokemon11-tab" tabindex="0"><img src="img/Pokemon11.png" alt="pokemon11" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon12-tab-pane" role="tabpanel" aria-labelledby="pokemon12-tab" tabindex="0"><img src="img/Pokemon12.png" alt="pokemon12" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon13-tab-pane" role="tabpanel" aria-labelledby="pokemon13-tab" tabindex="0"><img src="img/Pokemon13.png" alt="pokemon13" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon14-tab-pane" role="tabpanel" aria-labelledby="pokemon14-tab" tabindex="0"><img src="img/Pokemon14.png" alt="pokemon14" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon15-tab-pane" role="tabpanel" aria-labelledby="pokemon15-tab" tabindex="0"><img src="img/Pokemon15.png" alt="pokemon15" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon16-tab-pane" role="tabpanel" aria-labelledby="pokemon16-tab" tabindex="0"><img src="img/Pokemon16.png" alt="pokemon16" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon17-tab-pane" role="tabpanel" aria-labelledby="pokemon17-tab" tabindex="0"><img src="img/Pokemon17.png" alt="pokemon17" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon18-tab-pane" role="tabpanel" aria-labelledby="pokemon18-tab" tabindex="0"><img src="img/Pokemon18.png" alt="pokemon18" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon19-tab-pane" role="tabpanel" aria-labelledby="pokemon19-tab" tabindex="0"><img src="img/Pokemon19.png" alt="pokemon19" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon20-tab-pane" role="tabpanel" aria-labelledby="pokemon20-tab" tabindex="0"><img src="img/Pokemon20.png" alt="pokemon20" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon21-tab-pane" role="tabpanel" aria-labelledby="pokemon21-tab" tabindex="0"><img src="img/Pokemon21.png" alt="pokemon21" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon22-tab-pane" role="tabpanel" aria-labelledby="pokemon22-tab" tabindex="0"><img src="img/Pokemon22.png" alt="pokemon22" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon23-tab-pane" role="tabpanel" aria-labelledby="pokemon23-tab" tabindex="0"><img src="img/Pokemon23.png" alt="pokemon23" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon24-tab-pane" role="tabpanel" aria-labelledby="pokemon24-tab" tabindex="0"><img src="img/Pokemon24.png" alt="pokemon24" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon25-tab-pane" role="tabpanel" aria-labelledby="pokemon25-tab" tabindex="0"><img src="img/Pokemon25.png" alt="pokemon25" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon26-tab-pane" role="tabpanel" aria-labelledby="pokemon26-tab" tabindex="0"><img src="img/Pokemon26.png" alt="pokemon26" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon27-tab-pane" role="tabpanel" aria-labelledby="pokemon27-tab" tabindex="0"><img src="img/Pokemon27.png" alt="pokemon27" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon28-tab-pane" role="tabpanel" aria-labelledby="pokemon28-tab" tabindex="0"><img src="img/Pokemon28.png" alt="pokemon28" class="rounded"></div>
+          <div class="tab-pane fade" id="pokemon29-tab-pane" role="tabpanel" aria-labelledby="pokemon29-tab" tabindex="0"><img src="img/Pokemon29.png" alt="pokemon29" class="rounded"></div>
+          <h6>Commentaires</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam eos sit enim perspiciatis doloremque tempore, voluptates ad, sed, fugiat quo iure ut deleniti quaerat ea natus eaque est inventore.</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- SCRIPT -->
+    <script src="bootstrap/bootstrap.bundle.js"></script>
+  </body>
+</html>

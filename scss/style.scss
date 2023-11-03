@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Pokemon";
+    src: url(../img/Pokemon_Solid.ttf);
+}
+
+h1 {
+    font-family: "Pokemon";
+    color: red;
+    text-shadow: 3px 3px 0 black, 3px -3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px 0px 0 black, 0px 3px 0 black, -3px 0px 0 black, 0px -3px 0 black
+}
+
+.btn, .btn:hover, .btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+    background: red;
+    color: white;
+}
+
+ul {
+    max-height: 75vh;
+}
+
+img {
+    border: 2px solid black;
+    max-width: 100%;
+}
+
+li img {
+    max-width: 150px;
+}
+
+.tab-pane img {
+    box-shadow: 0px 0px 10px 0px #000000;
+}
